@@ -1,0 +1,9 @@
+<package format="2">
+  <name>robocup_client</name>
+  <version>0.0.1</version>
+  <description>Client for RoboCup Game Control</description>
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>rclcpp</exec_depend>
+</package>

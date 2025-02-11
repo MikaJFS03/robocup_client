@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.5)
+project(robocup_client)
+
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+
+include_directories(include)
+
+add_executable(game_control_client src/game_control_client.cpp)
+ament_target_dependencies(game_control_client rclcpp)
+
+install(TARGETS
+  game_control_client
+  DESTINATION lib/${PROJECT_NAME})
+
+ament_package()
