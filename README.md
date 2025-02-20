@@ -1,2 +1,2 @@
 # robocup_gaecontroller_client
- prototype for gamecontroller clinet side on altair robots
+ prototype for gamecontroller client side on altair robots
